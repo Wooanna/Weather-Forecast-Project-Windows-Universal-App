@@ -1,0 +1,1 @@
+C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.WindowsPhone\WeatherForecast.WindowsPhone.csproj;neutral

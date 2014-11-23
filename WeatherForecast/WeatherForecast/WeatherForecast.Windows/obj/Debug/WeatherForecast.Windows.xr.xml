@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Roots >
+  <Roots.Interfaces>
+    <RootInterface FullName="Windows.UI.Xaml.Data.IValueConverter" />
+  </Roots.Interfaces>
+  <Roots.PropertyPathNames>
+    <RootPropertyPathName Name="Main" />
+    <RootPropertyPathName Name="IsSuccessfullyLoadedData" />
+    <RootPropertyPathName Name="Connection" />
+    <RootPropertyPathName Name="IsConnected" />
+    <RootPropertyPathName Name="ActualWidth" />
+    <RootPropertyPathName Name="ActualHeight" />
+    <RootPropertyPathName Name="CurrentDay" />
+    <RootPropertyPathName Name="temp" />
+    <RootPropertyPathName Name="morn" />
+    <RootPropertyPathName Name="day" />
+    <RootPropertyPathName Name="eve" />
+    <RootPropertyPathName Name="night" />
+    <RootPropertyPathName Name="weather" />
+    <RootPropertyPathName Name="description" />
+    <RootPropertyPathName Name="main" />
+    <RootPropertyPathName Name="max" />
+    <RootPropertyPathName Name="TempColor" />
+    <RootPropertyPathName Name="Run" />
+    <RootPropertyPathName Name="Location" />
+    <RootPropertyPathName Name="Days" />
+    <RootPropertyPathName Name="Time" />
+    <RootPropertyPathName Name="DayOfWeek" />
+    <RootPropertyPathName Name="GetForecast" />
+    <RootPropertyPathName Name="Text" />
+  </Roots.PropertyPathNames>
+  <Roots.RootTypes>
+    <RootType FullName="Windows.UI.Xaml.Application">
+      <RootProperty Name="Resources" />
+    </RootType>
+    <RootType FullName="WeatherForecast.ViewModel.ViewModelLocator" />
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
+      <RootProperty Name="FontSize" />
+      <RootProperty Name="FontFamily" />
+      <RootProperty Name="Foreground" />
+      <RootProperty Name="Text" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Style" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="Opacity" />
+      <RootEvent Name="Loaded" />
+      <RootEvent Name="DoubleTapped" />
+      <RootEvent Name="Tapped" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.FrameworkElement">
+      <RootProperty Name="Margin" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.StaticResourceExtension">
+      <RootProperty Name="ResourceKey" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Setter">
+      <RootProperty Name="Property" />
+      <RootProperty Name="Value" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Page">
+      <RootProperty Name="Background" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="Content" />
+    </RootType>
+    <RootType FullName="Microsoft.Xaml.Tools.DirectUI.ProxyTypes.ThemeResourceExtension" />
+    <RootType FullName="Windows.UI.Xaml.Data.Binding">
+      <RootProperty Name="Mode" />
+      <RootProperty Name="Source" />
+      <RootProperty Name="Converter" />
+      <RootProperty Name="ElementName" />
+      <RootProperty Name="Path" />
+    </RootType>
+    <RootType FullName="WeatherForecast.ValueConverter.DayOfWeekToTreeLettersStringConverter" />
+    <RootType FullName="WeatherForecast.ValueConverter.WithDegreeSignValueConverter" />
+    <RootType FullName="WeatherForecast.ValueConverter.FromBoolToVisibilityValueConverter" />
+    <RootType FullName="WeatherForecast.ValueConverter.FromBoolToVisibilityForConnectionConverter" />
+    <RootType FullName="WeatherForecast.ValueConverter.WeatherToImageStringValueConverter" />
+    <RootType FullName="Windows.UI.Xaml.Controls.Grid">
+      <RootProperty Name="Name" />
+      <RootProperty Name="RowDefinitions" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="ColumnDefinitions" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootMethod Name="GetRow" />
+      <RootMethod Name="SetRow" />
+      <RootMethod Name="GetRowSpan" />
+      <RootMethod Name="SetRowSpan" />
+      <RootMethod Name="GetColumnSpan" />
+      <RootMethod Name="SetColumnSpan" />
+      <RootMethod Name="GetColumn" />
+      <RootMethod Name="SetColumn" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.RowDefinition">
+      <RootProperty Name="Height" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.MediaElement">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Volume" />
+      <RootProperty Name="Source" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ListBox">
+      <RootProperty Name="ItemsSource" />
+      <RootProperty Name="Background" />
+      <RootProperty Name="SelectedItem" />
+      <RootProperty Name="Resources" />
+      <RootProperty Name="ItemsPanel" />
+      <RootProperty Name="ItemTemplate" />
+      <RootEvent Name="SelectionChanged" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ScrollViewer">
+      <RootMethod Name="GetVerticalScrollBarVisibility" />
+      <RootMethod Name="SetVerticalScrollBarVisibility" />
+      <RootMethod Name="GetHorizontalScrollBarVisibility" />
+      <RootMethod Name="SetHorizontalScrollBarVisibility" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Canvas">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Children" />
+      <RootMethod Name="GetLeft" />
+      <RootMethod Name="SetLeft" />
+      <RootMethod Name="GetTop" />
+      <RootMethod Name="SetTop" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.StackPanel">
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="DataContext" />
+      <RootProperty Name="Children" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="Visibility" />
+      <RootProperty Name="Orientation" />
+      <RootEvent Name="Unloaded" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ProgressBar">
+      <RootProperty Name="Name" />
+      <RootProperty Name="IsIndeterminate" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Rectangle">
+      <RootProperty Name="Height" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Fill" />
+      <RootProperty Name="Opacity" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Shapes.Ellipse">
+      <RootProperty Name="Name" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Stroke" />
+      <RootProperty Name="StrokeThickness" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="VerticalAlignment" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ColumnDefinition">
+      <RootProperty Name="Width" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Button">
+      <RootProperty Name="Name" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="BorderBrush" />
+      <RootProperty Name="Content" />
+      <RootProperty Name="Command" />
+      <RootProperty Name="CommandParameter" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.Image">
+      <RootProperty Name="Source" />
+      <RootProperty Name="VerticalAlignment" />
+      <RootProperty Name="Width" />
+      <RootProperty Name="HorizontalAlignment" />
+      <RootProperty Name="Height" />
+      <RootProperty Name="Name" />
+      <RootProperty Name="Stretch" />
+      <RootProperty Name="Opacity" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.DataTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.ItemsPanelTemplate">
+      <RootProperty Name="Template" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.VirtualizingStackPanel">
+      <RootProperty Name="Orientation" />
+    </RootType>
+    <RootType FullName="Windows.UI.Xaml.Controls.TextBox">
+      <RootProperty Name="Name" />
+      <RootProperty Name="PlaceholderText" />
+      <RootProperty Name="HorizontalAlignment" />
+    </RootType>
+    <RootType FullName="WeatherForecast.MainPage" />
+  </Roots.RootTypes>
+</Roots>

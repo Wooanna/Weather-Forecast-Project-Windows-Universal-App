@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>WOO</Machine>
+    <WindowsUser>Polar Bear</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>6718ae43-7656-477f-814b-5ee20d4be98a</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\bin\Debug\WeatherForecast.Windows.exe">
+      <PackagePath>WeatherForecast.Windows.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\packages\MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.dll">
+      <PackagePath>GalaSoft.MvvmLight.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\packages\MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.Extras.dll">
+      <PackagePath>GalaSoft.MvvmLight.Extras.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\packages\MvvmLightLibs.5.0.2.0\lib\netcore451\GalaSoft.MvvmLight.Platform.dll">
+      <PackagePath>GalaSoft.MvvmLight.Platform.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\packages\CommonServiceLocator.1.3\lib\portable-net4+sl5+netcore45+wpa81+wp8\Microsoft.Practices.ServiceLocation.dll">
+      <PackagePath>Microsoft.Practices.ServiceLocation.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\packages\Newtonsoft.Json.6.0.6\lib\netcore45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\clouds.jpg">
+      <PackagePath>Assets\clouds.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\cloudy-road1.jpg">
+      <PackagePath>Assets\cloudy-road1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\snow.jpg">
+      <PackagePath>Assets\snow.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\sunny.jpg">
+      <PackagePath>Assets\sunny.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\sunny2.jpg">
+      <PackagePath>Assets\sunny2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\clouds.png">
+      <PackagePath>Assets\clouds.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\drops.png">
+      <PackagePath>Assets\drops.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\sun.png">
+      <PackagePath>Assets\sun.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\phone-480-500.png">
+      <PackagePath>Assets\phone-480-500.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\phone-480-586.png">
+      <PackagePath>Assets\phone-480-586.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-Italic.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-Italic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-Light.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-Light.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-LightItalic.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-LightItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-Regular.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-Regular.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-Semibold.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-Semibold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-SemiboldItalic.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-SemiboldItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-Black.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-Black.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-BlackItalic.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-BlackItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-Bold.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-Bold.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-BoldItalic.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-BoldItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-ExtraLight.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-ExtraLight.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\Fonts\SourceSansPro-ExtraLightItalic.ttf">
+      <PackagePath>Assets\Fonts\SourceSansPro-ExtraLightItalic.ttf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\Assets\wow.wav">
+      <PackagePath>Assets\wow.wav</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\bin\Debug\WeatherForecast.Windows.xr.xml">
+      <PackagePath>WeatherForecast.Windows.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Polar Bear\Documents\Visual Studio 2013\Projects\WeatherForecast\WeatherForecast\WeatherForecast.Windows\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

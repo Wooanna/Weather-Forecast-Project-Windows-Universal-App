@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0d9f5032-87fc-4b67-8318-d8e5d438c4a5</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>WeatherForecast</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="$(MSBuildThisFileDirectory)App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Model\City.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Clouds.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Coord.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Day.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Geolocation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Main.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Rain.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\RootObject.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Sys.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Temp.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Weather.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Wind.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ValueConverter\DayOfWeekToTreeLettersStringConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ValueConverter\FromBoolToVisibilityForConnectionConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ValueConverter\FromBoolToVisibilityValueConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ValueConverter\WeatherToImageStringValueConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ValueConverter\WithDegreeSignValueConverter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\CheckConnectionViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\CommandWithParameters.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\MainViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\NotifyTaskCompletion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\RelayCommandWithParameteres.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ViewModel\ViewModelLocator.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="$(MSBuildThisFileDirectory)MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>
